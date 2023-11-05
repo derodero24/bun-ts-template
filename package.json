@@ -2,8 +2,19 @@
   "name": "ts-node-template",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "lint": "prettier --check **/*.ts && eslint --ext .ts .",
+    "lint:fix": "prettier --write **/*.ts && eslint --ext .ts . --fix"
+  },
   "devDependencies": {
-    "bun-types": "latest"
+    "@tsconfig/strictest": "^2.0.2",
+    "@typescript-eslint/eslint-plugin": "^6.9.1",
+    "bun-types": "latest",
+    "eslint": "^8.53.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "prettier": "^3.0.3"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
