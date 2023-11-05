@@ -1,12 +1,14 @@
 {
   "name": "ts-node-template",
   "type": "module",
+  "private": true,
   "scripts": {
     "start": "bun run src/index.ts",
     "lint": "prettier --check **/*.ts && eslint --ext .ts .",
     "lint:fix": "prettier --write **/*.ts && eslint --ext .ts . --fix"
   },
   "devDependencies": {
+    "@total-typescript/ts-reset": "^0.5.1",
     "@tsconfig/strictest": "^2.0.2",
     "@typescript-eslint/eslint-plugin": "^6.9.1",
     "bun-types": "latest",
