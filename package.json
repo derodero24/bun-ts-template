@@ -3,6 +3,7 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
+    "start": "bun run src/index.ts",
     "lint": "prettier --check **/*.ts && eslint --ext .ts .",
     "lint:fix": "prettier --write **/*.ts && eslint --ext .ts . --fix"
   },
@@ -15,8 +16,5 @@
     "eslint-plugin-import": "^2.29.0",
     "eslint-plugin-unused-imports": "^3.0.0",
     "prettier": "^3.0.3"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
   }
 }
