@@ -9,6 +9,7 @@ const config = {
     'plugin:import/typescript',
     'plugin:unicorn/recommended',
     'plugin:sonarjs/recommended',
+    'plugin:security/recommended',
     'prettier',
   ],
   plugins: ['unused-imports'],
