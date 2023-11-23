@@ -8,5 +8,7 @@
     "moduleDetection": "force",
     "noEmit": true,
     "types": ["bun-types"]
-  }
+  },
+  "include": [".eslintrc.cjs", "**/*.ts", "**/*.cjs", "**/*.mjs"],
+  "exclude": ["node_modules"]
 }
