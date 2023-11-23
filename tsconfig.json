@@ -1,14 +1,9 @@
 {
-  "extends": "@tsconfig/strictest/tsconfig.json",
-  "compilerOptions": {
-    "lib": ["ESNext"],
-    "module": "ESNext",
-    "target": "ESNext",
-    "moduleResolution": "Bundler",
-    "moduleDetection": "force",
-    "noEmit": true,
-    "types": ["bun-types"]
-  },
+  "extends": [
+    "@tsconfig/strictest/tsconfig.json",
+    "@tsconfig/bun/tsconfig.json"
+  ],
+  "compilerOptions": {},
   "include": [".eslintrc.cjs", "**/*.ts", "**/*.cjs", "**/*.mjs"],
   "exclude": ["node_modules"]
 }
