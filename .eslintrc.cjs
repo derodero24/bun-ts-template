@@ -16,6 +16,7 @@ const config = {
     project: './tsconfig.json',
   },
   rules: {
+    'max-params': ['error', 3],
     'sort-imports': ['warn', { ignoreDeclarationSort: true }],
     'import/order': [
       'warn',
