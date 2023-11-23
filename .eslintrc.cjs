@@ -7,6 +7,7 @@ const config = {
     'plugin:@typescript-eslint/stylistic-type-checked',
     'plugin:import/recommended',
     'plugin:import/typescript',
+    'plugin:sonarjs/recommended',
     'prettier',
   ],
   plugins: ['unused-imports'],
