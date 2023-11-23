@@ -7,6 +7,7 @@ const config = {
     'plugin:@typescript-eslint/stylistic-type-checked',
     'plugin:import/recommended',
     'plugin:import/typescript',
+    'plugin:unicorn/recommended',
     'plugin:sonarjs/recommended',
     'prettier',
   ],
@@ -44,6 +45,7 @@ const config = {
         caughtErrorsIgnorePattern: '^_',
       },
     ],
+    'unicorn/prevent-abbreviations': 'off',
     'unused-imports/no-unused-imports': 'warn',
   },
 };
