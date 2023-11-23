@@ -17,6 +17,7 @@ const config = {
   },
   rules: {
     'max-params': ['error', 3],
+    'no-nested-ternary': 'error',
     'sort-imports': ['warn', { ignoreDeclarationSort: true }],
     'import/order': [
       'warn',
